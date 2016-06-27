@@ -79,6 +79,7 @@
                                             <li><?php echo anchor("xform/form_data/" . $form->id, "Data list"); ?></li>
                                             <li><?php echo anchor("form_visualization/chart/" . $form->form_id, "View Chart"); ?></li>
                                             <li><?php echo anchor("form_visualization/map/" . $form->form_id, "View Map"); ?></li>
+                                            <li><?php echo anchor("form_visualization/line_chart/" . $form->form_id, "View Trend"); ?></li>
                                         </ul>
                                     </div>
                                 </td>
